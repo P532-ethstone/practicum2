@@ -47,7 +47,7 @@
     <script>
        let ducks = [];
 	   async function getAll(){
-		let host = "http://localhost:8080";
+		let host = "https://ducksservice-ethstone.onrender.com/";
         return fetch(host + "/ducks").then((response) => response.json());
 	   }
 
