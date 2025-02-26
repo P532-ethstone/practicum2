@@ -47,7 +47,7 @@
     <script>
        let ducks = [];
 	   async function getAll(){
-		let host = "https://ducksservice-ethstone.onrender.com/";
+		let host = "https://ducksservice-ethstone.onrender.com";
         return fetch(host + "/ducks").then((response) => response.json());
 	   }
 
