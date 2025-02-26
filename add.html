@@ -30,13 +30,13 @@
 			
 			let response = await fetch(host + "/ducks", request);
 			if(response.status == 200){
-				let result = await submitTheImage();
-				if(result){
-					message = "The duck was added successfully!";
-				}
-				else{
-					message = "Something went wrong! Duck data could not be saved.";
-				}
+				// let result = await submitTheImage();
+				// if(result){
+				message = "The duck was added successfully!";
+				// }
+				// else{
+				// 	message = "Something went wrong! Duck data could not be saved.";
+				// }
 				
 			}
 			else{
